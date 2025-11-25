@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Exploring the Mystical Forest",
+    "excerpt": "Journey through enchanted woods and discover the magic within nature's embrace",
+    "date": "2025-01-15",
+    "author": "Forest Explorer",
+    "image": "hobby1.jpg",
+    "content": "# Exploring the Mystical Forest\n\nThe forest has always been a place of wonder and mystery. As I ventured deeper into the woods, I discovered...\n\n## The Journey Begins\n\nEvery great adventure starts with a single step. The path ahead was covered in moss and ancient trees towered overhead.\n\n## Discoveries Along the Way\n\n- Bioluminescent mushrooms glowing in the dark\n- Ancient trees that have stood for centuries\n- Hidden streams with crystal clear water\n- Wildlife that calls this magical place home\n\n## Lessons from Nature\n\nThe forest teaches us patience, resilience, and the beauty of natural cycles."
+  },
+  {
+    "id": 2,
+    "title": "Building Modern Web Applications",
+    "excerpt": "A comprehensive guide to creating beautiful and functional web apps with React",
+    "date": "2025-01-10",
+    "author": "Tech Enthusiast",
+    "image": "project1.jpg",
+    "content": "# Building Modern Web Applications\n\nIn today's digital age, creating stunning web applications is both an art and a science.\n\n## The Tech Stack\n\nChoosing the right tools is crucial:\n\n- **React** for component-based architecture\n- **TypeScript** for type safety\n- **Tailwind CSS** for rapid styling\n- **Vite** for lightning-fast development\n\n## Best Practices\n\n1. Component reusability\n2. Performance optimization\n3. Accessibility considerations\n4. Responsive design\n\n## Conclusion\n\nWith the right tools and approach, anyone can create amazing web experiences."
+  },
+  {
+    "id": 3,
+    "title": "The Art of Photography",
+    "excerpt": "Capturing moments and telling stories through the lens of a camera",
+    "date": "2025-01-05",
+    "author": "Visual Artist",
+    "image": "hobby2.jpg",
+    "content": "# The Art of Photography\n\nPhotography is more than just pressing a button - it's about seeing the world differently.\n\n## Finding Your Vision\n\nEvery photographer has a unique perspective. Developing your style takes time and experimentation.\n\n### Golden Hour Magic\n\nThe best light happens during golden hour - that magical time just after sunrise or before sunset.\n\n### Composition Techniques\n\n- Rule of thirds\n- Leading lines\n- Framing\n- Symmetry and patterns\n\n## Equipment vs Vision\n\nRemember: the best camera is the one you have with you. Vision matters more than gear."
+  }
+]

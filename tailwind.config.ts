@@ -57,6 +57,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        forest: {
+          dark: "hsl(var(--forest-dark))",
+          deep: "hsl(var(--forest-deep))",
+          moss: "hsl(var(--forest-moss))",
+          lime: "hsl(var(--forest-lime))",
+          glow: "hsl(var(--forest-glow))",
+        },
+      },
+      fontFamily: {
+        playfair: ['Playfair Display', 'serif'],
+        inter: ['Inter', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -84,6 +95,9 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float": "float 3s ease-in-out infinite",
+        "glow-pulse": "glow-pulse 2s ease-in-out infinite",
+        "leaf-fall": "leaf-fall 10s linear infinite",
       },
     },
   },

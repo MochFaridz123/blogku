@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Dashboard Analytics",
+    "description": "A modern dashboard with real-time analytics and data visualization",
+    "image": "project1.jpg",
+    "github": "https://github.com/username/project1",
+    "demo": "https://project1-demo.com",
+    "tags": ["React", "TypeScript", "Charts"]
+  },
+  {
+    "id": 2,
+    "title": "E-Commerce Platform",
+    "description": "Full-featured online shopping platform with cart and checkout",
+    "image": "project2.jpg",
+    "github": "https://github.com/username/project2",
+    "demo": "https://project2-demo.com",
+    "tags": ["React", "Tailwind", "Stripe"]
+  },
+  {
+    "id": 3,
+    "title": "Social Mobile App",
+    "description": "Beautiful mobile app interface with social features and gradients",
+    "image": "project3.jpg",
+    "github": "https://github.com/username/project3",
+    "demo": "https://project3-demo.com",
+    "tags": ["Mobile", "UI/UX", "Design"]
+  }
+]
