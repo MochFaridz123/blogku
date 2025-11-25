@@ -1,24 +1,41 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const CircularText = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [rotation, setRotation] = useState(0);
   const text = "Explore My Forest Portfolio ✦ ";
   const radius = 80;
+  const animationRef = useRef<number>();
+  const lastMousePos = useRef({ x: 0, y: 0 });
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
-      setMousePosition({ x: e.clientX, y: e.clientY });
-      
-      // Calculate rotation based on mouse movement
-      const centerX = window.innerWidth / 2;
-      const centerY = window.innerHeight / 2;
-      const angle = Math.atan2(e.clientY - centerY, e.clientX - centerX);
-      setRotation(angle * (180 / Math.PI));
+      lastMousePos.current = { x: e.clientX, y: e.clientY };
+    };
+
+    const animate = () => {
+      setMousePosition((prev) => {
+        const dx = lastMousePos.current.x - prev.x;
+        const dy = lastMousePos.current.y - prev.y;
+        return {
+          x: prev.x + dx * 0.15,
+          y: prev.y + dy * 0.15,
+        };
+      });
+
+      setRotation((prev) => prev + 1);
+      animationRef.current = requestAnimationFrame(animate);
     };
 
     window.addEventListener("mousemove", handleMouseMove);
-    return () => window.removeEventListener("mousemove", handleMouseMove);
+    animationRef.current = requestAnimationFrame(animate);
+
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+      if (animationRef.current) {
+        cancelAnimationFrame(animationRef.current);
+      }
+    };
   }, []);
 
   const characters = text.split("");
@@ -26,7 +43,7 @@ const CircularText = () => {
 
   return (
     <div
-      className="fixed pointer-events-none z-50 transition-all duration-200 ease-out"
+      className="fixed pointer-events-none z-50"
       style={{
         left: `${mousePosition.x}px`,
         top: `${mousePosition.y}px`,

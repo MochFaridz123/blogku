@@ -1,6 +1,7 @@
 import BouncingMarquee from "@/components/animations/BouncingMarquee";
 import CircularText from "@/components/animations/CircularText";
 import MeteorRain from "@/components/animations/MeteorRain";
+import FallingLeaves from "@/components/animations/FallingLeaves";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import heroForest from "@/assets/hero-forest.jpg";
@@ -12,6 +13,7 @@ const Home = () => {
     <div className="min-h-screen">
       <MeteorRain />
       <CircularText />
+      <FallingLeaves />
 
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
