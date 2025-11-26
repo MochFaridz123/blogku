@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Exploring the Mystical Forest",
-    "excerpt": "Journey through enchanted woods and discover the magic within nature's embrace",
+    "title": "Nasi Padang",
+    "excerpt": "Adalah Salah satu makan favorit saya pribadi",
     "date": "2025-01-15",
     "author": "Forest Explorer",
     "image": "hobby1.jpg",
@@ -19,8 +19,8 @@
   },
   {
     "id": 3,
-    "title": "The Art of Photography",
-    "excerpt": "Capturing moments and telling stories through the lens of a camera",
+    "title": "Sate Padang",
+    "excerpt": "Salah dua makanan Favorit saya pribadi",
     "date": "2025-01-05",
     "author": "Visual Artist",
     "image": "hobby2.jpg",

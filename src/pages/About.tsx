@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import profileImage from "@/assets/profile.jpg";
+import profileImage from "@/assets/me.jpg";
 
 const About = () => {
   const skills = [
@@ -35,8 +35,7 @@ const About = () => {
               <p className="text-lg text-foreground/90 leading-relaxed">
                 Hello! I'm a passionate web developer who finds inspiration in nature's beauty.
                 I combine my love for coding with creativity to build magical digital experiences.
-                When I'm not coding, you can find me exploring forests, capturing moments through
-                photography, or diving into a good book.
+                 I'm coders. I'm From Toyamas and like naspad and sate padang my name is Wildan Nur Awaludin Sekian Matur Nuwun
               </p>
             </div>
           </div>

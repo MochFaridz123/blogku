@@ -63,7 +63,7 @@ const MeteorRain = () => {
         if (meteorImg.current) {
           // Glow effect
           ctx.shadowBlur = 20;
-          ctx.shadowColor = "#7dff4f";
+          ctx.shadowColor = "#ffffffff";
           ctx.globalAlpha = meteor.opacity;
           
           // Draw meteor image

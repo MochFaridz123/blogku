@@ -1,29 +1,29 @@
 [
   {
     "id": 1,
-    "title": "Dashboard Analytics",
-    "description": "A modern dashboard with real-time analytics and data visualization",
+    "title": "Simple Game Quiz",
+    "description": "game ini di lengkapi dengan 1000 soal dengan tingkat kesulitan kelas 12 dengan mengikutkan semua mata pelajaran wajib dan non wajib tinggkat kesulitan easy-intermedian",
     "image": "project1.jpg",
-    "github": "https://github.com/username/project1",
-    "demo": "https://project1-demo.com",
-    "tags": ["React", "TypeScript", "Charts"]
+    "github": "https://github.com/wildanel321/",
+    "demo": "https://game.dwidhasa.my.id",
+    "tags": ["Html", "Css", "Js"]
   },
   {
     "id": 2,
-    "title": "E-Commerce Platform",
-    "description": "Full-featured online shopping platform with cart and checkout",
+    "title": "Website Kelas Official",
+    "description": "website ini dibuat origial kemauan sendiri dan biaya ditanggung sendiri dari biaya beli domain dan hosting",
     "image": "project2.jpg",
-    "github": "https://github.com/username/project2",
-    "demo": "https://project2-demo.com",
-    "tags": ["React", "Tailwind", "Stripe"]
+    "github": "https://github.com/username/",
+    "demo": "https://class.dwidhasa.my.id",
+    "tags": ["React", "Tailwind", "Typescript"]
   },
   {
     "id": 3,
-    "title": "Social Mobile App",
-    "description": "Beautiful mobile app interface with social features and gradients",
+    "title": "Music Players",
+    "description": "Website Music players ini di buat karena tugas",
     "image": "project3.jpg",
-    "github": "https://github.com/username/project3",
-    "demo": "https://project3-demo.com",
-    "tags": ["Mobile", "UI/UX", "Design"]
+    "github": "https://github.com/username/",
+    "demo": "https://music.wildanstore.my.id",
+    "tags": ["Tailwind", "Typescript", "React"]
   }
 ]

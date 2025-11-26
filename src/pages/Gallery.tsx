@@ -9,12 +9,12 @@ import hobby5 from "@/assets/hobby5.jpg";
 import hobby6 from "@/assets/hobby6.jpg";
 
 const galleryImages = [
-  { id: 1, src: hobby1, title: "Mountain Hiking", description: "Exploring nature's heights" },
-  { id: 2, src: hobby2, title: "Photography", description: "Capturing golden moments" },
-  { id: 3, src: hobby3, title: "Reading", description: "Lost in stories" },
+  { id: 1, src: hobby1, title: "Nasi Padang", description: "Makanan Favorit" },
+  { id: 2, src: hobby2, title: "Sate Padang", description: "Makanan Favorit" },
+  { id: 3, src: hobby3, title: "Coding", description: "Programing" },
   { id: 4, src: hobby4, title: "Gaming", description: "Digital adventures" },
-  { id: 5, src: hobby5, title: "Cooking", description: "Culinary experiments" },
-  { id: 6, src: hobby6, title: "Art", description: "Creative expressions" },
+  { id: 5, src: hobby5, title: "Coding", description: "make project" },
+  { id: 6, src: hobby6, title: "Coding", description: "Creating Project" },
 ];
 
 const Gallery = () => {

@@ -11,7 +11,7 @@ interface Leaf {
 
 const FallingLeaves = () => {
   const [leaves, setLeaves] = useState<Leaf[]>([]);
-  const leafEmojis = ["🍃", "🍂", "🌿"];
+  const leafEmojis = ["🍃", "🗿", "♠️"];
 
   useEffect(() => {
     const createLeaves = () => {

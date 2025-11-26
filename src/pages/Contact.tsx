@@ -27,7 +27,7 @@ const Contact = () => {
   };
 
   const socialLinks = [
-    { icon: Github, label: "GitHub", url: "https://github.com" },
+    { icon: Github, label: "GitHub", url: "https://github.com/wildanel321" },
     { icon: Linkedin, label: "LinkedIn", url: "https://linkedin.com" },
     { icon: Twitter, label: "Twitter", url: "https://twitter.com" },
     { icon: Mail, label: "Email", url: "mailto:contact@example.com" },
