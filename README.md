@@ -12,7 +12,9 @@
 - Repo ini hanya boleh digunakan atau diakses oleh pihak yang mendapat izin.
 - Segala bentuk modifikasi tanpa izin **tidak diperbolehkan**.
 - Hormati karya orang lain.
+- Anda otak atik berarti anda siap untuk di hack 
 
 ---
 
 <h3 align="center">Terima kasih 🙏</h3>
+<h1 align="center">🛡️SALAM HACKER TOYAMAS🧑‍💻
